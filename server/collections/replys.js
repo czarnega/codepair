@@ -1,5 +1,5 @@
 var Bookshelf = require('../db/config').Bookshelf;
-var Reply = require('../models/Reply');
+var Reply = require('../models/reply');
 
 var Replys = new Bookshelf.Collection();
 
